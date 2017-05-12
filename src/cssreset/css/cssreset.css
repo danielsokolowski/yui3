@@ -101,12 +101,14 @@ sub {
 }
 input,
 textarea,
-select {
+select,
+button {
 	font-family:inherit;
 	font-size:inherit;
 	font-weight:inherit;
 	*font-size:100%; /*to enable resizing for IE*/
 	color: inherit;
+	border: none;	
 }
 /*because legend doesn't inherit in IE */
 legend {
